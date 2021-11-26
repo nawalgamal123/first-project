@@ -1,0 +1,364 @@
+/* start main rules*/
+body{
+    height: 4000px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+.clearfix{ clear: both;}
+/* end main rules*/
+/* header*/
+.header .slider{
+    background-image: url('../img/main-img1.jpg');
+    background-size: cover;
+    background-color: rgb(211, 204, 204);
+    height: 400px;
+}
+.header .slider .intro {
+    padding: 190px;
+    height: 400px;
+    text-align: center
+}
+.header .slider .intro h2{
+   
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #000 ;
+    border-bottom: 4px solid #000 ;
+    padding: 5px;
+}
+.header .slider .intro button{
+    background: none;
+    margin-top: 40px;
+    font-size: 20px;
+    border: 2px solid #000;
+    padding: 10px 25px;
+}
+.header .navbar{
+    background-color: #252f25;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .navbar h2 span{color: #2ecc71;}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+    color: #2ecc71;
+}
+
+
+/*end header*/
+/*start feature*/
+.feature {
+    overflow: hidden; 
+    padding-top:40px ;
+    padding-bottom: 50px;
+}
+.feature .feat{ 
+    float: left;
+    width:33.333333%   ;
+    height: 150px;
+}
+.feature .feat h2{color:  #1b1b1b;}
+.feature .feat p{
+    color: #b4b3b3;
+    line-height: 1.7;
+}
+/*end  feature*/
+/*<!--start about me-->*/
+.about-me {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+.about-me .image img{ width: 100%;}
+.about-me .info{
+    float: left;
+    width: 60%;
+    
+}
+.about-me .info h2{
+    margin: 20px 0 10px 50px;
+}
+.about-me .info > p{
+    margin: 0 0 5px 50px;
+}
+.about-me .info p{
+    margin-right:10px;
+    line-height: 1.7;
+    color: rgb(89, 90, 90);
+}
+.about-me .info .Courses{
+    overflow: hidden;
+    margin: 4px 0 0 50px;
+}
+.about-me .info .Courses .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+.about-me .info .Courses .content .icon{
+    float: left;
+    width: 12%;
+    margin-right: 5%;
+}
+.about-me .info .Courses .content .icon img{
+    max-width: 100%;
+    margin: 25px 10px 0 0 ;
+}
+.about-me .info .Courses .content .text{
+    float: left;
+    width: 83%;
+}
+.about-me .info .Courses .content .text h3{margin-bottom: 5px;}
+.about-me .info .Courses .content .text p{ margin-top: 0;}
+/*<!--end about me-->*/
+/*<!--strat my skills--> */
+.my-skills{
+    padding: 30px 0 30px 0;
+    overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress{ /* grouping*/
+    float: left;
+    width: 50%;
+}
+.my-skills .skills h2{
+    margin: 20px 0 10px 40px;
+}
+.my-skills .skills p{
+    margin:0 0 15px 40px;
+    line-height: 1.7;
+    color: rgb(89, 90, 90);
+}
+.my-skills .skills button{
+    background:none;
+    color: #2dcc70;
+    border: 2px solid #2dcc70;
+    margin: 20px 0 10px 200px; 
+    padding: 10px 30px;
+}
+.my-skills .progress .tech{margin-left: 50px;}
+.my-skills .progress .tech div{
+    background-color: #f2f2f2;
+    height: 25px;
+}
+.my-skills .progress .tech div span{
+    display: block;
+    background-color: #2dcc70;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+}
+
+/*<!--end my skills--> */
+/*<!--strat resume--> */
+.resume{
+    background-color: #f2f2f2;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+.resume h2{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.resume p{
+    margin-left: 120px;
+    color: #6a6e71;
+    line-height: 1.7;
+    padding: 0 40px;
+}
+.resume button{
+    margin: 20px 0 0 60px;
+    background:none;
+    color: #2dcc70;
+    border: 2px solid #2dcc70;
+    padding: 10px 30px;
+
+}
+/*<!--end resume--> */
+/*<!--strat my educatio--> */
+.educatio{
+    padding: 30px 0 30px 0;
+    overflow: hidden;
+}
+.education .main{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+.education .main h2{
+    margin: 20px 0 10px 40px;
+}
+.education .main p{
+    margin:0 0 15px 40px;
+    line-height: 1.7;
+    color: rgb(89, 90, 90);
+}
+.education .exp{ 
+    float: left;
+    width: 45%;
+}
+.education .exp h3{ 
+    margin: 60px 0 8px 0;
+}
+.education .exp span{
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(89, 90, 90);;
+}
+.education .exp .gpa{
+    background-color: #2dcc70;
+    color: #fff;
+    display: inline-block;
+    padding: 2px ;
+    border-radius: 5px;
+}
+
+.education .exp p{
+    line-height: 1.7;
+    color: rgb(89, 90, 90);
+} 
+.education .exp hr{
+    margin: 15px 0;
+    background-color: rgb(182, 179, 179);
+    height: 1px;
+    border: 0;
+}
+/*<!--end my educatio--> */
+/*<!--strat my experience--> */
+.experience{
+    padding: 30px 0 30px 0;
+    overflow: hidden;
+}
+.experience .main,
+.experience .exp{ 
+    float: left;
+    width: 50%;
+}
+/*<!--end my Testemonials--> */
+.Testemonials{
+    background-color: #f2f2f2;
+    padding: 50px 0 70px 0;
+    text-align: center;
+}
+.Testemonials q{
+    line-height: 1.7;
+    color:#888 ;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.Testemonials h3{
+    color: rgb(75, 74, 74);
+}
+/*<!--end Testemonials--> */
+/*<!--start Portofolio-->*/
+.Portofolio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.Portofolio p{
+    line-height: 1.7;
+    color: rgb(89, 90, 90);
+    margin-left: 30px;
+}
+.Portofolio .our-work{
+    overflow: hidden;
+}
+.Portofolio .our-work > div{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+.Portofolio .our-work > div img{
+    width: 92%;
+    margin: 10px;
+}
+/*<!--end Portofolio-->*/
+/* <!--start contact me-->*/
+.contact-me{
+    background-color: #252f31;
+    overflow: hidden;
+    padding: 50px 0 70px 0;
+
+}
+.contact-me .info{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+.contact-me h2{ color: #fff; margin-left: 40px;}
+.contact-me p{color: #6a6e71;
+    margin-left: 40px;
+    line-height: 1.7;
+}
+.contact-me strong{ color: antiquewhite ;}
+
+.contact-me .form{
+    float: left;
+    width: 45%;
+    padding: 20px 0 70px 0;
+}
+.contact-me .form label{
+    display: block;
+    margin: 10px 0;
+    color: antiquewhite;
+}
+.contact-me .form input[type="text"]{
+    background-color: darkgrey;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.contact-me .form textarea{
+   background-color: darkgrey; 
+   color: #fff;
+   width: 80%;
+   margin-bottom: 10px;
+   padding: 10px;
+   height: 300px;
+}
+.contact-me .form input[type="submit"]{
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: rgb(43, 42, 42);
+    color: antiquewhite;
+    
+}
+/* <!--end contact me-->*/
+/*<!--start footer-->*/
+.footer {
+    background-color: #191e22;
+    color:#6a6e71 ;
+    padding: 20px 0;;
+    text-align: center;
+}
+/*<!--end footer-->*/
